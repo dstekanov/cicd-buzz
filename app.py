@@ -17,4 +17,4 @@ def generate_buzz():
     return page
 
 if __name__ == "__main__":
-    app.run(host='rocky-savannah-49818.herokuapp.com', port=5000)
+    app.run()
