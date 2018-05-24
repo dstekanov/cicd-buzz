@@ -17,4 +17,4 @@ def generate_buzz():
     return page
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='localhost', port=os.environ.get('PORT', 17995))
